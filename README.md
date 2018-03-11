@@ -10,4 +10,6 @@ da faculdade de Ciência da Computação, José do Rosário Vellano, UNIFENAS - 
 - Protoboard
 - E outros componentes de eletrônica
 
+# Circuito básico (https://www.tinkercad.com/)
+
 <img src="https://i.imgur.com/fMZjUv7l.png" />

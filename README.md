@@ -10,4 +10,4 @@ da faculdade de Ciência da Computação, José do Rosário Vellano, UNIFENAS - 
 - Protoboard
 - E outros componentes de eletrônica
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/PjkLz"><a href="//imgur.com/PjkLz"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src="https://i.imgur.com/fMZjUv7l.png" />

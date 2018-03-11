@@ -13,3 +13,7 @@ da faculdade de Ciência da Computação, José do Rosário Vellano, UNIFENAS - 
 # Circuito básico (https://www.tinkercad.com/)
 
 <img src="https://i.imgur.com/fMZjUv7l.png" />
+
+# Tabela de numeração binária para ativação dos segmentos
+
+<img src="https://i.imgur.com/qml2qPl.png" />

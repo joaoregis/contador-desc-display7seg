@@ -2,7 +2,7 @@
 int A = 2, B = 3, C = 4, D = 5, E = 6, F = 7, G = 8, DECIMALPOINT = 11;
 
 // Representação binária dos números
-int Numbers[10][8] = {
+int Numbers[11][8] = {
 
   //A   B   C   D   E   F   G   DP
   // Binário                                  || Char   || Pos

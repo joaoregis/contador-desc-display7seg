@@ -1,5 +1,5 @@
 // Pinos de saída do display do arduino
-int A = 2, B = 3, C = 4, D = 5, E = 6, F = 7, G = 8, DECIMALPOINT = 11;
+int A = 2, B = 3, C = 4, D = 5, E = 6, F = 7, G = 8, DECIMALPOINT = 9;
 
 // Representação binária dos números
 int Numbers[11][8] = {
@@ -10,8 +10,8 @@ int Numbers[11][8] = {
   {HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,LOW,LOW},    // 0      | 1
   {LOW,HIGH,HIGH,LOW,LOW,LOW,LOW,LOW},        // 1      | 2
   {HIGH,HIGH,LOW,HIGH,HIGH,LOW,HIGH,LOW},     // 2      | 3
-  {LOW,HIGH,HIGH,HIGH,LOW,LOW,HIGH,LOW},      // 3      | 4
-  {HIGH,HIGH,HIGH,LOW,LOW,HIGH,HIGH,LOW},     // 4      | 5
+  {HIGH,HIGH,HIGH,HIGH,LOW,LOW,HIGH,LOW},     // 3      | 4
+  {LOW,HIGH,HIGH,LOW,LOW,HIGH,HIGH,LOW},      // 4      | 5
   {HIGH,LOW,HIGH,HIGH,LOW,HIGH,HIGH,LOW},     // 5      | 6
   {HIGH,LOW,HIGH,HIGH,HIGH,HIGH,HIGH,LOW},    // 6      | 7
   {HIGH,HIGH,HIGH,LOW,LOW,LOW,LOW,LOW},       // 7      | 8
@@ -40,14 +40,14 @@ void setup()
 // Renderiza o número correspondente ao startNumber no display
 void WriteOnDisplay()
 {
-    digitalWrite(A, Numbers[startNumber][0]);
-    digitalWrite(B, Numbers[startNumber][1]);
-    digitalWrite(C, Numbers[startNumber][2]);
-    digitalWrite(D, Numbers[startNumber][3]);
-    digitalWrite(E, Numbers[startNumber][4]);
-    digitalWrite(F, Numbers[startNumber][5]);
-    digitalWrite(G, Numbers[startNumber][6]);
-    digitalWrite(DECIMALPOINT, Numbers[startNumber][7]);
+    digitalWrite(A, Numbers[startNumber][0]==HIGH?LOW:HIGH);
+    digitalWrite(B, Numbers[startNumber][1]==HIGH?LOW:HIGH);
+    digitalWrite(C, Numbers[startNumber][2]==HIGH?LOW:HIGH);
+    digitalWrite(D, Numbers[startNumber][3]==HIGH?LOW:HIGH);
+    digitalWrite(E, Numbers[startNumber][4]==HIGH?LOW:HIGH);
+    digitalWrite(F, Numbers[startNumber][5]==HIGH?LOW:HIGH);
+    digitalWrite(G, Numbers[startNumber][6]==HIGH?LOW:HIGH);
+    digitalWrite(DECIMALPOINT, Numbers[startNumber][7]==HIGH?LOW:HIGH);
     delay(1000);
 }
 
@@ -60,7 +60,7 @@ void loop()
 
   if (startNumber < 0)
   {
-    startNumber = 9;
+    startNumber = 10;
   }
 
 }

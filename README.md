@@ -7,8 +7,9 @@ da faculdade de Ciência da Computação, José do Rosário Vellano, UNIFENAS - 
 - Microcontrolador Arduino
 - Linguagem C
 - Display de 7 segmentos
-- Protoboard
-- E outros componentes de eletrônica
+- Protoboard Mini
+- Resistor de 200 Ohms
+- Cabos
 
 # Circuito básico (https://www.tinkercad.com/)
 
